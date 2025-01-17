@@ -29,8 +29,11 @@ The following files are included in the `data/` folder.
 
 This study also uses publicly available metagnomic data from the following studies: PRJNA762360, PPRJNA41981, PRJNA397906, PRJEB22893
 
-### Data files
+### Code & scripts
 
 The following scripts are included in the `src/` folder. Scripts which require additional resources not provided in this repository (e.g. fasta files) are denoted
 
+Scripts can be run in the order specified
 
+- `01_process_data.py` : Creates normalized FMPC count table from BlastX output *requires BlastX output & files containing number of lines in the fasta file for each sample
+- ``
