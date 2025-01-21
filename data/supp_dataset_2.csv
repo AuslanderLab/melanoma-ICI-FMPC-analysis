@@ -1,0 +1,37 @@
+﻿SampleID,investigator,project_name,SampleType,Timepoint,irAE classification,batch,Worst GI AE,Other sever AE,Serious,Related
+05618-54-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-55-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-50-C1,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B2,Colitis,NAN,Yes,Definitely
+05618-51-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-53-C1,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B2,Pancreatitis,NAN,Yes,Definitely
+05618-43-C1,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B2,Colitis,NAN,Yes,Definitely
+05618-49-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-42-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-44-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-37-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-40-C1,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B2,Colitis,NAN,Yes,Probably
+05618-48-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-47-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-02-03-C1,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B2,diarrhea,NAN,No,Probably
+05618-02-01-C1,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B2,NAN,NAN,NAN,NAN
+05618-02-04-C1,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B2,NAN,adrenal insufficiency,Yes,Definitely
+UPCC05618-01,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-13,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,NAN,Myocarditis (Grade 3),NAN,NAN
+UPCC05618-27,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,diarrhea,NAN,No,Probably
+UPCC05618-02,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-15,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,Colitis,NAN,Yes,Probably
+UPCC05618-30,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,diarrhea,NAN,No,Definitely
+UPCC05618-03,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-16,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,diarrhea,NAN,No,Probably
+UPCC05618-31,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-09,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-17,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-32,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-10,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,NAN,Autoimmune System Disorder,Yes,Probably
+UPCC05618-19,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,NAN,Non-Cardiac Chest Pain (Grade 3),NAN,NAN
+UPCC05618-33,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-11,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-24,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-25,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
+UPCC05618-12,Noam Auslander,Radvax sequencing,Feces,C1,Tox,B1,NAN,Rash (Grade 3),NAN,NAN
+UPCC05618-26,Noam Auslander,Radvax sequencing,Feces,C1,Non-Tox,B1,NAN,NAN,NAN,NAN
