@@ -36,4 +36,11 @@ The following scripts are included in the `src/` folder. Scripts which require a
 Scripts can be run in the order specified
 
 - `01_process_data.py` : Creates normalized FMPC count table from BlastX output *requires BlastX output & files containing number of lines in the fasta file for each sample
-- ``
+- `02_compute_aucs.py` : Computes AUROCs for normalized count matrices. The script assumes the matrices have been subsetted by cohort
+- `03_filter_aucs.R` : Extracts signigicant FMPCs for downstream analysis
+- `04_train_mrs.R` : Trains MRS betas
+- `05_validate_mrs.R` : Validates MRS model
+- `06_multi_FMPC_model_train.py` : Training/feature selection for the multi-FMPC model
+- `07_multi_FMPC_model_validate.py` : Validation & exploratory analysis of the muti-FMPC model
+- `08_extract_peptides.py` : Extract peptides from SPAdes contigs *expects sample level SPAdes contigs as input
+
