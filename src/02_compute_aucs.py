@@ -38,8 +38,6 @@ nyc=cln.loc[s2]
 dad=dall[s3]
 dac=cln.loc[s3]
 
-l0 = [i=='Responder' for i in pit0c['Study_Clin_Response']]
-# 60
 l1 = [i=='Responder' for i in pitc['Study_Clin_Response']]
 # 94
 l2 = [i=='Responder' for i in nyc['Study_Clin_Response']]
