@@ -1,0 +1,14 @@
+FMPC,Pittsburgh,RadVax batch1,RadVax batc2,RadVax combined,,
+FMPC 480: UvrD-helicase domain-containing protein ,0.71743295,0.677083333,0.583333333,0.63961039,,
+FMPC 3017: ABC transporter permease ,0.711685824,0.604166667,0.75,0.665584416,,
+FMPC 15417: 4Fe-4S binding protein ,0.712164751,0.65625,0.7,0.691558442,,
+FMPC 19779: *hhblits annotated* Putative iron-sulfur FMPC-binding protein  db:Pdp70 e-value:3.9e-25 ,0.710727969,0.71875,0.666666667,0.688311688,,
+FMPC 21427: DUF378 domain-containing protein ,0.70545977,0.510416667,0.533333333,0.522727273,,
+,,,,,,
+,,,,,,
+FMPC,unadjusted,Abx_Use,Sex,BMI,PPI_use_at_time_of_collection,pesc
+FMPC 480: UvrD-helicase domain-containing protein ,0.014324003,0.012442851,0.012555741,0.021472893,0.013763155,0.018592823
+FMPC 3017: ABC transporter permease ,0.006171584,0.005813597,0.005817121,0.004669541,0.00597485,0.008568548
+FMPC 15417: 4Fe-4S binding protein ,0.008613859,0.008071208,0.005897672,0.008931495,0.008178924,0.01306341
+FMPC 19779: *hhblits annotated* Putative iron-sulfur FMPC-binding protein  db:Pdp70 e-value:3.9e-25 ,0.037242939,0.034723778,0.034094976,0.032805063,0.036798907,0.039226047
+FMPC 21427: DUF378 domain-containing protein ,0.006654931,0.006796974,0.004510937,0.009460555,0.006039567,0.008598509
