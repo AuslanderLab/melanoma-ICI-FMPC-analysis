@@ -190,7 +190,7 @@ n_parents = math.floor(len(feature_subsets)/2)*2
 logmodel = RandomForestClassifier(n_estimators = 100, random_state = 42)
 
 all_results = []
-for i in range(0,1000):
+for i in range(0,10000):
     print(i)
     np.random.seed(i)
     chromo_df_bc,score_bc = generations(label = y_train, size = 20, nfeat = feature_subsets, 
