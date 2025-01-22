@@ -15,13 +15,8 @@ if __name__ == "__main__":
     ny_ids = cln[cln['Study'] == 'new_york'].index
 
     # Create paired dataframes
-    dallas_clinical = cln[cln['Study'] == 'Dallas']
     dallas_expression = dataset_4[dallas_ids]
-
-    pittsburgh_clinical = cln[cln['Study'] == 'Pittsburgh']
-    pittsburgh_expression = dataset_4[pittsburgh_ids]  # Fixed this line
-
-    ny_clinical = cln[cln['Study'] == 'new_york']
+    pittsburgh_expression = dataset_4[pittsburgh_ids]
     ny_expression = dataset_4[ny_ids]
 
     dallas_expression.to_csv("data/supp_dataset_4-$DALLAS.csv")
