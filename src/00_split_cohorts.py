@@ -7,8 +7,7 @@ import pandas as pd
 if __name__ == "__main__":
     dataset_4 = pd.read_csv("data/supp_dataset_4.csv")
     cln = pd.read_csv('data/supp_dataset_1.csv',
-                    index_col='Sample', na_values=["N_A", "NA", ""])
-
+                      index_col='Sample', na_values=["N_A", "NA", ""])
 
     # Get indices/columns by study
     dallas_ids = cln[cln['Study'] == 'Dallas'].index
@@ -27,4 +26,4 @@ if __name__ == "__main__":
 
     dallas_expression.to_csv("data/supp_dataset_4-$DALLAS.csv")
     pittsburgh_expression.to_csv("data/supp_dataset_4-$PITT.csv")
-    ny_expression.to_csv("data//supp_dataset_4-$NY.csv")
+    ny_expression.to_csv("data/supp_dataset_4-$NY.csv")
