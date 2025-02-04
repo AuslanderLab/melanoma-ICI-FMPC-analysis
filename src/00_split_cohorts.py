@@ -17,6 +17,6 @@ if __name__ == "__main__":
     dallas_expression = dataset_4[dallas_ids]
     pittsburgh_expression = dataset_4[pittsburgh_ids]
     ny_expression = dataset_4[ny_ids]
-    dallas_expression.to_csv("data/supp_dataset_4-$DALLAS.csv")
-    pittsburgh_expression.to_csv("data/supp_dataset_4-$PITT.csv")
-    ny_expression.to_csv("data/supp_dataset_4-$NY.csv")
+    dallas_expression.to_csv("results/supp_dataset_4-DALLAS.csv")
+    pittsburgh_expression.to_csv("results/supp_dataset_4-PITT.csv")
+    ny_expression.to_csv("results/supp_dataset_4-NY.csv")
