@@ -2,6 +2,7 @@
 results/*
 .DS_STORE
 chores.sh
+chores.R
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
