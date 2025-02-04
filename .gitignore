@@ -1,6 +1,7 @@
 # Custom Defined
-data/supp_dataset_4-$*.csv
+results/*
 .DS_STORE
+chores.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
