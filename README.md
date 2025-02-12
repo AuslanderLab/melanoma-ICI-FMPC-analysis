@@ -44,3 +44,16 @@ Scripts can be run in the order specified
 - `07_multi_FMPC_model_validate.py` : Validation & exploratory analysis of the muti-FMPC model
 - `08_extract_peptides.py` : Extract peptides from SPAdes contigs *expects sample level SPAdes contigs as input
 
+Additional code notes:
+
+The original database used to cluster `WP_*` proteins into FMPCs can be constructed using the following commands
+```
+wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'
+cat nr.*.tar.gz | tar -zxvi -f - -C .
+blastdbcmd -db path_to_nr_db/nr -taxids 2 -outfmt %f -out fasta_file_name.(fa or fasta)
+
+# Note: path_to_nr_db/ is where the .tar.gz files are extracted.
+```
+
+
+
