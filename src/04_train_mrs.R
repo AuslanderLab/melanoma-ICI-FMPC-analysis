@@ -50,7 +50,7 @@ pitt = as.data.frame(data.table::fread('supp_dataset_4-$PITT.csv'))
 
 s1 = intersect(cln$Sample, names(pitt)) 
 
-clst <- as.data.frame(data.table::fread('results/aucs_signif-irae.csv', header = TRUE))$V1
+clst <- as.data.frame(data.table::fread('results/aucs_signif.csv', header = TRUE))$V1
 
 pitt.df <- pitt[pitt$V1 %in% clst, ]
 
