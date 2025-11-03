@@ -13,7 +13,7 @@ The following files are included in the `data/` folder.
 
 - `supp_dataset_1.*` : Clinical information for publicly available cohorts utilized in this study, Pittsburgh and New York (training), Dallas (validation) and Houston (test).
 - `supp_dataset_2.csv` : Clinical information for the RadVax cohort (this study)
-- `supp_dataset_3.*` : FMPC database providing protein IDs, cluster information and functional description for each FMPC 
+- `supp_dataset_3.csv` : FMPC database providing protein IDs, cluster information and functional description for each FMPC 
 - `supp_dataset_4.*` : Normalized FMPC counts for the training and validation cohorts
 - `supp_dataset_5.csv` : AUROCs assigned to each FMPC for predicting immunotherapy response in the training and validation cohorts
 - `supp_dataset_6.csv` : Permutation testing results for the 49 selected FMPCs for prediction of immunotherapy response based on the training and validation cohorts.
