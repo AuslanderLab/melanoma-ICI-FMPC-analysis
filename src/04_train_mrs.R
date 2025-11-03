@@ -121,40 +121,4 @@ write.table(cd.betas.adj, file = ("results/betas-ppi_adj-pitt.tsv"),
             row.names = FALSE, sep = "\t", quote = FALSE)
 
 
-# make the actual burden score now
-
-# with betas
-cd.mrs <- df.bin %>% 
-  tidyr::pivot_longer(C142:C18821,
-                      names_to = "clst") %>%
-  inner_join(cd.betas.adj, by = "clst") %>%
-  mutate(tot = value * beta) %>%
-  select(name, Response, tot) %>%
-  group_by(name, Response) %>%
-  summarise(mrs = sum(tot)) %>%
-  ungroup()
-
-
-# try pruning & thresholding
-cd.prt <- df.bin %>% 
-  tidyr::pivot_longer(C142:C18821,
-                      names_to = "clst") %>%
-  inner_join(cd.betas.adj %>% filter(pvalue < 0.05),
-             by = "clst") %>%
-  mutate(tot = value * beta) %>%
-  select(name, Response, tot) %>%
-  group_by(name, Response) %>%
-  summarise(mrs = sum(tot)) %>%
-  ungroup()
-
-
-cd.mrs$pruning.thresholding <- "no"
-cd.prt$pruning.thresholding <- "0.05"
-
-all.mrs <- rbind(cd.mrs, cd.prt)
-
-
-write.table(cd.prt, row.names = FALSE, quote = FALSE, sep = "\t",
-            file = "snapshots/corrected_normalization_june_2024/mrs-pitt.tsv")
-
 
