@@ -39,20 +39,6 @@ for.perm <- auc.r[(auc.r$min >=0.7 |
 write.csv(for.perm, file = "results/aucs_signif-response.csv",
           row.names = FALSE, quote = FALSE)
 
-auc.r$min <- pmin(auc.r$pitt, auc.r$nyc)
-auc.r$mean <- rowMeans(auc.r[, c(2:3)])
-auc.r$max <- pmax(auc.r$pitt, auc.r$nyc)
-
-for.mrs <- auc.r[(auc.r$min >=0.7 | 
-                     (auc.r$mean >= 0.7 & 
-                        (auc.r$pitt >= 0.65 & auc.r$nyc >= 0.65))) |
-                    (auc.r$max <=0.3 | 
-                       (auc.r$mean <= 0.3 & 
-                          (auc.r$pitt <= 0.35 & auc.r$nyc <= 0.35))), ]
-write.csv(for.mrs, file = "results/aucs_signif-mrs.csv",
-          row.names = FALSE, quote = FALSE)
-
-
 
 # for irae
 # just look at pitt cohort
